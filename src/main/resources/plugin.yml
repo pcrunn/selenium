@@ -1,0 +1,4 @@
+name: Selenium
+version: ${project.version}
+main: me.pcrunn.selenium.example.SeleniumExample
+authors: [pcrunn]
