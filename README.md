@@ -6,7 +6,7 @@ I also made a video coding it for some reason and might upload it on youtube som
 
 [Click here for usage](https://github.com/pcrunn/selenium/blob/master/src/main/java/me/pcrunn/selenium/example/SeleniumExample.java)
 
-## How do i use it?
+## How do I use it?
 Selenium uses the maven build tool, you can also use it without it though. I provided a guide for using it both with maven or without below.
 
 ### Maven:
