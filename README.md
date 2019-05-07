@@ -13,10 +13,10 @@ Selenium uses the maven build tool, you can also use it without it though. I pro
 - Simple, go to your pom.xml and add the following.
 ```xml
 <repositories>
-	<repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
-	</repository>
+  <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
 </repositories>
   
   <dependencies>
