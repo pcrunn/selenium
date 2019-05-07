@@ -19,6 +19,7 @@ Selenium uses the maven build tool, you can also use it without it though. I pro
   <groupId>me.pcrunn</groupId>
   <artifactId>selenium</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <scope>compile</scope>
 </dependency>
 ```
 
