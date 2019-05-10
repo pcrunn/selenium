@@ -2,10 +2,10 @@ package me.pcrunn.selenium.ui;
 
 import me.pcrunn.selenium.impl.SimpleSeleniumService;
 import me.pcrunn.selenium.ui.item.UIItem;
-import me.pcrunn.selenium.util.Callback;
 import org.bukkit.entity.Player;
 
-import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Consumer;
 
 public interface SeleniumUI {
 
@@ -20,7 +20,7 @@ public interface SeleniumUI {
      * Returns a map of all the items and their slots;
      */
 
-    HashMap<UIItem, Integer> getItems(Player player);
+    Map<UIItem, Integer> getItems(Player player);
 
 
     /*
@@ -33,7 +33,7 @@ public interface SeleniumUI {
      * Gets called when the menu closes;
      */
 
-    Callback<Player> onClose();
+    Consumer<Player> onClose();
 
     /*
      * Opens the menu for a player;
