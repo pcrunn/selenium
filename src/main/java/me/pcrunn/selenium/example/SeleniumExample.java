@@ -4,7 +4,6 @@ import me.pcrunn.selenium.SeleniumService;
 import me.pcrunn.selenium.impl.SimpleSeleniumService;
 import me.pcrunn.selenium.ui.SeleniumUI;
 import me.pcrunn.selenium.ui.item.UIItem;
-import me.pcrunn.selenium.util.Callback;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -17,6 +16,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
+import java.util.function.Consumer;
 
 public class SeleniumExample extends JavaPlugin {
 
@@ -56,7 +56,7 @@ public class SeleniumExample extends JavaPlugin {
                     }
 
                     @Override
-                    public Callback<Player> onClose() {
+                    public Consumer<Player> onClose() {
                         return param -> {};
                     }
                 });
